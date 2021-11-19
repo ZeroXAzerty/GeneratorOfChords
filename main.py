@@ -13,7 +13,7 @@ def main() :
     two = ["C", "G#", "Em"]             # Define the all second chords which have in the suite of chords
     three = ["G", "Fm#", "Bm"]          # Define the all third chords which have in the suite of chords
     four = ["D", "Cm#", "Am"]           # Define the all fourth chords which have in the suite of chords
-    value = randint(0, numberofchords)  # Define a variable value who is between 0 and numberofchords
+    value = randint(0, numberofchords - 1)  # Define a variable value who is between 0 and numberofchords
 
     print(f"{Fore.BLUE}{one[value]} {two[value]} {three[value]} {four[value]}{Fore.WHITE}")
 
